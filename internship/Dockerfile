@@ -10,13 +10,6 @@
 # WORKDIR /app
 
 
-
-# Set working directory
-WORKDIR /app
-
-# Clone the GitHub repository
-RUN git clone https://github.com/jaquen20/Course-selection-project.git .
-
 # Ensure the Maven wrapper is executable
 RUN chmod +x mvnw
 
