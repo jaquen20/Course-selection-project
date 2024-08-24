@@ -9,14 +9,13 @@
 # FROM openjdk:17-jdk-alpine
 # WORKDIR /app
 
-# Use an image with Git and Maven installed
-FROM maven:3.8.6-openjdk-17 AS build
+
 
 # Set working directory
 WORKDIR /app
 
 # Clone the GitHub repository
-RUN git clone https://github.com/yourusername/your-repo.git .
+RUN git clone https://github.com/jaquen20/Course-selection-project.git .
 
 # Ensure the Maven wrapper is executable
 RUN chmod +x mvnw
