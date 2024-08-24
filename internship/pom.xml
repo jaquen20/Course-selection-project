@@ -71,6 +71,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>backend-docker</finalName>
 	</build>
 
 </project>
